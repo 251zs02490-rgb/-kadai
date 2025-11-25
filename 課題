@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ポートフォリオ - あなたの名前</title>
+</head>
+<body>
+  <header>
+    <h1>あなたの名前</h1>
+    <p>簡単な自己紹介文</p>
+  </header>
+
+  <section>
+    <h2>自己紹介</h2>
+    <p>興味のある分野や学んでいることなど</p>
+  </section>
+
+  <section>
+    <h2>作品集</h2>
+    <ul>
+      <li><a href="（作品のURL）">作品1のタイトル</a> - 簡単な説明</li>
+      <li><a href="（作品のURL）">作品2のタイトル</a> - 簡単な説明</li>
+    </ul>
+  </section>
+</body>
+</html>
