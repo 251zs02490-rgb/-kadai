@@ -3,38 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ポートフォリオ</title>
+  <title>RPG開発者のポートフォリオ</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>ポートフォリオ</h1>
-    <p class="subtitle">あなたの名前</p>
+  <div class="bg-grid"></div>
+
+  <header class="window">
+    <h1>RPG Developer Portfolio</h1>
+    <p class="subtitle">制作者：あなたの名前</p>
   </header>
 
-  <section>
-    <h2>自己紹介</h2>
-    <p>
-      簡単な自己紹介文をここに書く。興味のある分野や、授業で学んだ内容など。
-    </p>
-  </section>
+  <main>
+    <section class="window">
+      <h2>ステータス</h2>
+      <ul class="status-list">
+        <li><span class="label">LV</span> 学部・学年など</li>
+        <li><span class="label">JOB</span> 学生 / ゲーム開発志望 など</li>
+        <li><span class="label">SKILL</span> Scratch / JavaScript / RPG制作 など</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>作品集</h2>
-    <ul class="works">
-      <li>
-        <a href="作品1のURL">作品1のタイトル</a>
-        <p>作品の説明を1行程度でまとめる。</p>
-      </li>
-      <li>
-        <a href="作品2のURL">作品2のタイトル</a>
-        <p>必要なら追加の説明を書く。</p>
-      </li>
-    </ul>
-  </section>
+    <section class="window">
+      <h2>プロフィール</h2>
+      <p>
+        簡単な自己紹介文をここに書く。RPG制作に興味を持ったきっかけや、
+        授業で学んだことの中で特に活かしたいポイントなどをまとめる。
+      </p>
+    </section>
 
-  <footer>
+    <section class="window">
+      <h2>クエストログ（作品集）</h2>
+      <ul class="works">
+        <li>
+          <div class="work-title">
+            <span class="badge">MAIN QUEST</span>
+            <a href="作品1のURL">作品1のタイトル</a>
+          </div>
+          <p>作品の内容（RPGのシステム、バトル、マップなど）を1〜2行で説明。</p>
+        </li>
+        <li>
+          <div class="work-title">
+            <span class="badge badge-sub">SIDE QUEST</span>
+            <a href="作品2のURL">作品2のタイトル</a>
+          </div>
+          <p>小さめのゲームやツールなどがあれば簡単に説明を書く。</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="window">
+      <h2>コンタクト</h2>
+      <p>
+        連絡先を書きたい場合はここに記載する。<br>
+        例：メールアドレスや、公開してよいSNSアカウントなど。
+      </p>
+    </section>
+  </main>
+
+  <footer class="window footer-window">
     <p>© あなたの名前</p>
+    <p class="sysmsg">SYSTEM MESSAGE: ポートフォリオは GitHub Pages 上で公開中。</p>
   </footer>
 </body>
 </html>
