@@ -2,25 +2,40 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ポートフォリオ - あなたの名前</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>あなたの名前</h1>
-    <p>簡単な自己紹介文</p>
+    <h1>ポートフォリオ</h1>
+    <p class="subtitle">あなたの名前</p>
   </header>
 
   <section>
     <h2>自己紹介</h2>
-    <p>興味のある分野や学んでいることなど</p>
+    <p>
+      簡単な自己紹介文をここに書く。興味のある分野や、授業で学んだ内容など。
+    </p>
   </section>
 
   <section>
     <h2>作品集</h2>
-    <ul>
-      <li><a href="（作品のURL）">作品1のタイトル</a> - 簡単な説明</li>
-      <li><a href="（作品のURL）">作品2のタイトル</a> - 簡単な説明</li>
+    <ul class="works">
+      <li>
+        <a href="作品1のURL">作品1のタイトル</a>
+        <p>作品の説明を1行程度でまとめる。</p>
+      </li>
+      <li>
+        <a href="作品2のURL">作品2のタイトル</a>
+        <p>必要なら追加の説明を書く。</p>
+      </li>
     </ul>
   </section>
+
+  <footer>
+    <p>© あなたの名前</p>
+  </footer>
 </body>
 </html>
+
